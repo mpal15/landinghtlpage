@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    background-image: url("./assets/images/overlay.png"),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/images/bg.jpg");
+    background-size: 100% ;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1rem;
+    color: #212931;
+
+}
+
+#lander{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    width: 100%;
+    padding-top: 50vh;
+}
+footer{
+    display: flex;
+    flex-shrink: 0;
+    background: hsla(0, 0%, 93%, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    min-width: 75vw;
+    min-height: 3rem;
+    padding: 0;
+    
+    
+}
+
+.normal h4{
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0;
+}
+#pages{
+    display: flex;
+    justify-content: space-around;
+    min-width: 47%;
+    min-height: 100%;
+    margin: 0;
+    
+
+    
+}
+.white{
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0;
+    min-height: 100%;
+}
+.white h4{
+    color: #212931
+}
+#icons{
+    padding: 1rem 1rem 1rem 1rem;
+    min-width: 16%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 100%;
+    
+
+}
+#icons i{
+    color: white;
+}
+h1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+h4{
+    font-size: 0.5rem;
+    
+}
+p{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+p a{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    
+}
+#arrow-box{
+    color: #ffffff;
+    margin: 0 auto 3.6rem auto;
+    padding: 1rem;
+    width: fit-content;
+    border: #ffffff solid ;
+    border-radius: 100%;
+}
